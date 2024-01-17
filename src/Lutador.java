@@ -137,4 +137,19 @@ public class Lutador {
     public void setEmpates(int empates) {
         this.empates = empates;
     }
+
+    @Override
+    public String toString() {
+        return "Lutador{" +
+                "nome='" + nome + '\'' +
+                ", nacionalidade='" + nacionalidade + '\'' +
+                ", idade=" + idade +
+                ", altura=" + altura +
+                ", peso=" + peso +
+                ", categoria='" + categoria + '\'' +
+                ", vitorias=" + vitorias +
+                ", derrotas=" + derrotas +
+                ", empates=" + empates +
+                '}';
+    }
 }
